@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>edu.atlas</groupId>
+    <artifactId>demo-java-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>demo-java-jvm</module>
+        <module>demo-java-io</module>
+        <module>demo-java-thread</module>
+        <module>demo-java-framework</module>
+        <module>demo-java-concurrent</module>
+        <module>demo-java-pattern</module>
+        <module>demo-java-structure</module>
+    </modules>
+
+
+</project>

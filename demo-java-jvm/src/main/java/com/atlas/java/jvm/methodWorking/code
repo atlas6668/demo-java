@@ -1,0 +1,27 @@
+0: sipush        200
+3: istore_0
+4: bipush        100
+6: istore_1
+7: iload_0
+8: iload_1
+9: invokestatic  #17 // Method methodA:(II)I
+    0: iload_0
+    1: iload_1
+    2: iadd
+    3: ireturn
+12: iload_0
+13: iload_1
+14: invokestatic  #18 // Method methodB:(II)I
+    0: iload_0
+    1: iload_1
+    2: isub
+    3: ireturn
+17: invokestatic  #19 // Method methodC:(II)I
+    0: iload_0
+    1: iload_1
+    2: imul
+    3: ireturn
+20: istore_2
+21: iload_2
+22: ireturn
+
