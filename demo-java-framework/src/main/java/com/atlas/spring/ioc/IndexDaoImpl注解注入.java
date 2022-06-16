@@ -1,4 +1,4 @@
-package com.atlas.ioc;
+package com.atlas.spring.ioc;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;

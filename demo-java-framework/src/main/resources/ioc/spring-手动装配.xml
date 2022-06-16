@@ -4,17 +4,17 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dao" class="com.atlas.ioc.IndexDaoImpl0">
+    <bean id="dao" class="com.atlas.spring.ioc.IndexDaoImpl0">
         <property name="sourceName" value="sourceA" />
     </bean>
 
     <!-- 构造方法装配 -->
-<!--    <bean id="service" class="com.atlas.ioc.IndexService手动装配">-->
+<!--    <bean id="service" class="IndexService手动装配">-->
 <!--        <constructor-arg name="dao" ref="dao" />-->
 <!--    </bean>-->
 
     <!-- setter方法装配 -->
-    <bean id="service" class="com.atlas.ioc.IndexService手动装配">
+    <bean id="service" class="com.atlas.spring.ioc.IndexService手动装配">
         <property name="dao" ref="dao" />
     </bean>
 

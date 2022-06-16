@@ -1,4 +1,4 @@
-package com.atlas.ioc;
+package com.atlas.spring.ioc;
 
 /**
  * @author sunwenming

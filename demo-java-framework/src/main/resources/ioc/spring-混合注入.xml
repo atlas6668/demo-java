@@ -9,14 +9,14 @@
 
     <context:component-scan base-package="com.atlas" />
 
-    <bean id="dao0" class="com.atlas.ioc.IndexDaoImpl0">
+    <bean id="dao0" class="com.atlas.spring.ioc.IndexDaoImpl0">
         <property name="sourceName" value="sourceA" />
     </bean>
 
-    <bean id="dao1" class="com.atlas.ioc.IndexDaoImpl1">
+    <bean id="dao1" class="com.atlas.spring.ioc.IndexDaoImpl1">
     </bean>
 
-<!--    <bean id="service" class="com.atlas.ioc.IndexService混合注入">-->
+<!--    <bean id="service" class="IndexService混合注入">-->
 <!--    </bean>-->
 
 </beans>

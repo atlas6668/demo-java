@@ -1,4 +1,4 @@
-package com.atlas.ioc;
+package com.atlas.spring.ioc;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,10 +20,10 @@ public class T {
 //        IndexService自动装配 indexService自动装配 = (IndexService自动装配) classPathXmlApplicationContext.getBean("service");
 //        indexService自动装配.service();
 
-//        AnnotationConfigApplicationContext annotationConfigApplicationContext
-//                = new AnnotationConfigApplicationContext(Spring.class);
-//        IndexService混合注入 indexService混合注入 = annotationConfigApplicationContext.getBean(IndexService混合注入.class);
-//        indexService混合注入.service();
+        AnnotationConfigApplicationContext annotationConfigApplicationContext
+                = new AnnotationConfigApplicationContext(Spring.class);
+        IndexService混合注入 indexService混合注入 = annotationConfigApplicationContext.getBean(IndexService混合注入.class);
+        indexService混合注入.service();
 
 //        IndexService方法注入 indexServiceScope0 = annotationConfigApplicationContext.getBean(IndexService方法注入.class);
 //        System.out.println("indexServiceScope0:"+indexServiceScope0.hashCode());

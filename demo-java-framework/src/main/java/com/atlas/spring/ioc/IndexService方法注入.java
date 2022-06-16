@@ -1,4 +1,4 @@
-package com.atlas.ioc;
+package com.atlas.spring.ioc;
 
 
 import org.springframework.beans.factory.annotation.Lookup;

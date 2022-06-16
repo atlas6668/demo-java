@@ -1,4 +1,4 @@
-package com.atlas.ioc;
+package com.atlas.spring.lifecycle;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ImportResource;
 
 /**
  * @author sunwenming
- * @date 2022/6/14.
+ * @date 2022/6/16.
  */
 @Configuration
-@ComponentScan(value = "com.atlas")
-@ImportResource("classpath:ioc/spring-混合注入.xml")
+@ComponentScan(value = "com.atlas.spring.lifecycle")
+@ImportResource("classpath:lifecycle/spring.xml")
 public class Spring {
 }
