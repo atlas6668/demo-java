@@ -16,6 +16,7 @@ public class IndexDaoImpl1 implements IndexDao, InitializingBean {
         System.out.println("Constructor 1");
     }
 
+    @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("init 1");
     }

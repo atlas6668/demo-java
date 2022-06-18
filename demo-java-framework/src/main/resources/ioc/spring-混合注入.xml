@@ -7,7 +7,7 @@
             http://www.springframework.org/schema/context
 		    http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-    <context:component-scan base-package="com.atlas" />
+<!--    <context:component-scan base-package="com.atlas" />-->
 
     <bean id="dao0" class="com.atlas.spring.ioc.IndexDaoImpl0">
         <property name="sourceName" value="sourceA" />
