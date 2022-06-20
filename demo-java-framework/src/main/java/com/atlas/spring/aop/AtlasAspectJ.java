@@ -1,9 +1,13 @@
 package com.atlas.spring.aop;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.DeclareParents;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,6 +16,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
+//@Aspect("perthis(this(com.atlas.spring.aop.IndexDaoImpl))")
+//@Scope("prototype")
 public class AtlasAspectJ {
 
     /**
@@ -62,14 +68,24 @@ public class AtlasAspectJ {
 
     }
 
-    @Before("pointAnnotation()")
-    public void before() {
-        System.out.println("before");
-    }
+//    @Before("pointThis()")
+//    public void before() {
+//        System.out.println("before");
+//    }
 
 //    @After("pointCutExecution()")
 //    public void after() {
 //        System.out.println("after");
 //    }
+
+    @Around("pointThis()")
+    public void around(ProceedingJoinPoint pjp) throws Throwable {
+        System.out.println("b");
+        pjp.proceed();
+        System.out.println("a");
+    }
+
+//    @DeclareParents(value="com.atlas.spring.aop.x.*", defaultImpl=IndexDaoImpl.class)
+//    public static IndexDao indexDao;
 
 }
