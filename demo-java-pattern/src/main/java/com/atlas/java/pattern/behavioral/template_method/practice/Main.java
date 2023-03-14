@@ -8,7 +8,7 @@
 package com.atlas.java.pattern.behavioral.template_method.practice;
 
 
-import sun.exercise.pattern.behavioral.template_method.practice.bean.TextMessage;
+import com.atlas.java.pattern.behavioral.template_method.practice.bean.TextMessage;
 
 /**
  * <p>Title: Main</p>

@@ -1,9 +1,10 @@
 package com.atlas.java.pattern.creational.abstract_factory;
 
-import sun.exercise.pattern.creational.abstract_factory.factory.Factory;
-import sun.exercise.pattern.creational.abstract_factory.factory.Link;
-import sun.exercise.pattern.creational.abstract_factory.factory.Page;
-import sun.exercise.pattern.creational.abstract_factory.factory.Tray;
+
+import com.atlas.java.pattern.creational.abstract_factory.factory.Factory;
+import com.atlas.java.pattern.creational.abstract_factory.factory.Link;
+import com.atlas.java.pattern.creational.abstract_factory.factory.Page;
+import com.atlas.java.pattern.creational.abstract_factory.factory.Tray;
 
 import java.util.Scanner;
 

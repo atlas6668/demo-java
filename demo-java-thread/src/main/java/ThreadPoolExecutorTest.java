@@ -7,7 +7,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by sunwenming on 2018/6/26.
+ * @author sunwenming
+ * @date 2018/6/26
  */
 public class ThreadPoolExecutorTest {
 
@@ -21,6 +22,7 @@ public class ThreadPoolExecutorTest {
             for (int i = 0; i < threads; i++) {
                 Runnable runnable = new Runnable() {
 
+                    @Override
                     public void run() {
 //                        try {
 //                            Thread.sleep(100);

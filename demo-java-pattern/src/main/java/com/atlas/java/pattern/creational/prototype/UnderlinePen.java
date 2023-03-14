@@ -8,7 +8,7 @@
 package com.atlas.java.pattern.creational.prototype;
 
 
-import sun.exercise.pattern.creational.prototype.framework.Product;
+import com.atlas.java.pattern.creational.prototype.framework.Product;
 
 /**
  * <p>Title: UnderlinePen</p>

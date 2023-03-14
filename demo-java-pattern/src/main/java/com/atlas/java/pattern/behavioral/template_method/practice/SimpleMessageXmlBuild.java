@@ -8,8 +8,8 @@
 package com.atlas.java.pattern.behavioral.template_method.practice;
 
 
-import sun.exercise.pattern.behavioral.template_method.practice.bean.SimpleMessage;
-import sun.exercise.pattern.behavioral.template_method.practice.bean.WeiXinMessage;
+import com.atlas.java.pattern.behavioral.template_method.practice.bean.SimpleMessage;
+import com.atlas.java.pattern.behavioral.template_method.practice.bean.WeiXinMessage;
 
 /**
  * <p>Title: SimpleMessageXmlBuild</p>
